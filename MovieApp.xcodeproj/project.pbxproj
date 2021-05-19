@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F7EA8A226553B6100D4190A /* MoiveListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7EA8A126553B6100D4190A /* MoiveListTableViewCell.swift */; };
 		0F8C56292653515000750165 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8C56282653515000750165 /* AppDelegate.swift */; };
 		0F8C562B2653515000750165 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8C562A2653515000750165 /* SceneDelegate.swift */; };
-		0F8C562D2653515000750165 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8C562C2653515000750165 /* ViewController.swift */; };
+		0F8C562D2653515000750165 /* MovieListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8C562C2653515000750165 /* MovieListViewController.swift */; };
 		0F8C56302653515000750165 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F8C562E2653515000750165 /* Main.storyboard */; };
 		0F8C56322653515300750165 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F8C56312653515300750165 /* Assets.xcassets */; };
 		0F8C56352653515300750165 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F8C56332653515300750165 /* LaunchScreen.storyboard */; };
 		0F8C56402653515300750165 /* MovieAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8C563F2653515300750165 /* MovieAppTests.swift */; };
 		0F8C564B2653515300750165 /* MovieAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8C564A2653515300750165 /* MovieAppUITests.swift */; };
+		0F8C565F2653DED800750165 /* LabelFontSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8C565E2653DED800750165 /* LabelFontSize.swift */; };
+		0F8C566226540D0800750165 /* MovieList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8C566126540D0800750165 /* MovieList.swift */; };
+		0FA56E802655794500495629 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA56E7F2655794500495629 /* MovieDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F7EA8A126553B6100D4190A /* MoiveListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoiveListTableViewCell.swift; sourceTree = "<group>"; };
 		0F8C56252653515000750165 /* MovieApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F8C56282653515000750165 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F8C562A2653515000750165 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0F8C562C2653515000750165 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0F8C562C2653515000750165 /* MovieListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewController.swift; sourceTree = "<group>"; };
 		0F8C562F2653515000750165 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0F8C56312653515300750165 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F8C56342653515300750165 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +54,9 @@
 		0F8C56462653515300750165 /* MovieAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F8C564A2653515300750165 /* MovieAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieAppUITests.swift; sourceTree = "<group>"; };
 		0F8C564C2653515300750165 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F8C565E2653DED800750165 /* LabelFontSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelFontSize.swift; sourceTree = "<group>"; };
+		0F8C566126540D0800750165 /* MovieList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieList.swift; sourceTree = "<group>"; };
+		0FA56E7F2655794500495629 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +84,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F7EA89F26553AD600D4190A /* MovieLis */ = {
+			isa = PBXGroup;
+			children = (
+				0F8C562C2653515000750165 /* MovieListViewController.swift */,
+				0F7EA8A126553B6100D4190A /* MoiveListTableViewCell.swift */,
+			);
+			path = MovieLis;
+			sourceTree = "<group>";
+		};
+		0F7EA8A026553AE200D4190A /* Movie Details */ = {
+			isa = PBXGroup;
+			children = (
+				0FA56E7F2655794500495629 /* MovieDetailsViewController.swift */,
+			);
+			path = "Movie Details";
+			sourceTree = "<group>";
+		};
 		0F8C561C2653515000750165 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +124,7 @@
 		0F8C56272653515000750165 /* MovieApp */ = {
 			isa = PBXGroup;
 			children = (
+				0F8C565D2653DEBF00750165 /* Designables */,
 				0F8C565A265351D400750165 /* Models */,
 				0F8C5659265351CC00750165 /* Controllers */,
 				0F8C5658265351C500750165 /* View */,
@@ -140,7 +166,8 @@
 		0F8C5659265351CC00750165 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				0F8C562C2653515000750165 /* ViewController.swift */,
+				0F7EA8A026553AE200D4190A /* Movie Details */,
+				0F7EA89F26553AD600D4190A /* MovieLis */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -148,8 +175,17 @@
 		0F8C565A265351D400750165 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				0F8C566126540D0800750165 /* MovieList.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		0F8C565D2653DEBF00750165 /* Designables */ = {
+			isa = PBXGroup;
+			children = (
+				0F8C565E2653DED800750165 /* LabelFontSize.swift */,
+			);
+			path = Designables;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,9 +318,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F8C562D2653515000750165 /* ViewController.swift in Sources */,
+				0FA56E802655794500495629 /* MovieDetailsViewController.swift in Sources */,
+				0F8C562D2653515000750165 /* MovieListViewController.swift in Sources */,
+				0F8C566226540D0800750165 /* MovieList.swift in Sources */,
+				0F7EA8A226553B6100D4190A /* MoiveListTableViewCell.swift in Sources */,
 				0F8C56292653515000750165 /* AppDelegate.swift in Sources */,
 				0F8C562B2653515000750165 /* SceneDelegate.swift in Sources */,
+				0F8C565F2653DED800750165 /* LabelFontSize.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,7 +506,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.MovieApp.MovieApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DogbreedListings.Dog-breed-Listings";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -484,7 +524,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.MovieApp.MovieApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DogbreedListings.Dog-breed-Listings";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

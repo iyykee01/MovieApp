@@ -39,4 +39,5 @@ class MovieAppUITests: XCTestCase {
             }
         }
     }
+    
 }
