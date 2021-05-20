@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F7E5FD3265675C10000E4D4 /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7E5FD2265675C10000E4D4 /* HelperFunctions.swift */; };
 		0F7EA8A226553B6100D4190A /* MoiveListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7EA8A126553B6100D4190A /* MoiveListTableViewCell.swift */; };
 		0F8C56292653515000750165 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8C56282653515000750165 /* AppDelegate.swift */; };
 		0F8C562B2653515000750165 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8C562A2653515000750165 /* SceneDelegate.swift */; };
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F7E5FD2265675C10000E4D4 /* HelperFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperFunctions.swift; sourceTree = "<group>"; };
 		0F7EA8A126553B6100D4190A /* MoiveListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoiveListTableViewCell.swift; sourceTree = "<group>"; };
 		0F8C56252653515000750165 /* MovieApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F8C56282653515000750165 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -99,6 +101,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F7E5FD4265675CC0000E4D4 /* Helper functions */ = {
+			isa = PBXGroup;
+			children = (
+				0F7E5FD2265675C10000E4D4 /* HelperFunctions.swift */,
+			);
+			path = "Helper functions";
+			sourceTree = "<group>";
+		};
 		0F7EA89F26553AD600D4190A /* MovieLis */ = {
 			isa = PBXGroup;
 			children = (
@@ -141,6 +151,7 @@
 		0F8C56272653515000750165 /* MovieApp */ = {
 			isa = PBXGroup;
 			children = (
+				0F7E5FD4265675CC0000E4D4 /* Helper functions */,
 				0F8C565D2653DEBF00750165 /* Designables */,
 				0F8C565A265351D400750165 /* Models */,
 				0F8C5659265351CC00750165 /* Controllers */,
@@ -215,7 +226,6 @@
 				FB191E9E01CB70F4A4175B78 /* Pods-MovieAppTests.debug.xcconfig */,
 				7AB1F5DE232878302E0EEC5E /* Pods-MovieAppTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -472,6 +482,7 @@
 				0F8C566226540D0800750165 /* MovieList.swift in Sources */,
 				0F7EA8A226553B6100D4190A /* MoiveListTableViewCell.swift in Sources */,
 				0F8C56292653515000750165 /* AppDelegate.swift in Sources */,
+				0F7E5FD3265675C10000E4D4 /* HelperFunctions.swift in Sources */,
 				0F8C562B2653515000750165 /* SceneDelegate.swift in Sources */,
 				0F8C565F2653DED800750165 /* LabelFontSize.swift in Sources */,
 			);

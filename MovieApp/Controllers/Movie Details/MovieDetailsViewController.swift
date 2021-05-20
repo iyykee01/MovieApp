@@ -10,17 +10,12 @@ import UIKit
 class MovieDetailsViewController: UIViewController {
     
     
+    let screenRect = UIScreen.main.bounds
+    
     @IBOutlet weak var imageBanner: UIImageView!
     @IBOutlet weak var name: UILabelDeviceClass!
-    @IBOutlet weak var bred_for: UILabelDeviceClass!
-    @IBOutlet weak var imperialHeight: UILabelDeviceClass!
-    @IBOutlet weak var matricHeight: UILabelDeviceClass!
-    @IBOutlet weak var imperialWeight: UILabelDeviceClass!
-    @IBOutlet weak var matricWeight: UILabelDeviceClass!
-    
-    
-    @IBOutlet weak var origin: UILabelDeviceClass!
-    @IBOutlet weak var life_span: UILabelDeviceClass!
+    @IBOutlet weak var movieRating: UILabelDeviceClass!
+    @IBOutlet weak var movieYear: UILabelDeviceClass!
     @IBOutlet weak var movieDescription: UILabelDeviceClass!
     @IBOutlet weak var favourite_button: UIButton!
     
@@ -33,23 +28,24 @@ class MovieDetailsViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         displayMovieInfo();
-        
-       
     }
     
-    //TODO: - Add method to set up view on view load
-    /*
-     This method will display dog data from previous screen index
-     */
-    
+   
+     //This method will display Movie data from previous screen index
     func displayMovieInfo() {
+    
         let imageUrl = selectedMovie?.posterImage
         guard let imgExtString = imageUrl else {return}
         let urlString = "https://image.tmdb.org/t/p/w300" + imgExtString
         imageBanner.kf.setImage(with: URL(string: urlString))
         
-        name.text = "Name: \(selectedMovie?.title ?? "")"
+        name.text = selectedMovie?.title
         movieDescription.text = selectedMovie?.overview
+        movieRating.text = selectedMovie?.rate?.description
+        
+        let convertedDate = HelperFunctions.helpers.convertDateFormat(inputDate: selectedMovie?.year ?? "")
+        
+        movieYear.text = convertedDate
         
     }
     
@@ -65,5 +61,4 @@ class MovieDetailsViewController: UIViewController {
         navigationController?.popViewController(animated: true);
     }
     
-
 }

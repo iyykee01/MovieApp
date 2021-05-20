@@ -20,13 +20,13 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C7B-6K-MPJ">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="800"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="bDx-ha-Vav">
-                                                <rect key="frame" x="0.0" y="0.0" width="414" height="800"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8X4-Tm-8yR">
-                                                        <rect key="frame" x="0.0" y="0.0" width="414" height="800"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                                                         <subviews>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4zV-ln-WBH">
                                                                 <rect key="frame" x="375" y="24" width="31" height="31"/>
@@ -41,15 +41,15 @@
                                                                 </connections>
                                                             </button>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pEL-e2-coM">
-                                                                <rect key="frame" x="16" y="27.666666666666671" width="359" height="24"/>
+                                                                <rect key="frame" x="16" y="28.333333333333336" width="359" height="22.333333333333336"/>
                                                                 <subviews>
                                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VSp-ua-RNc">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="359" height="23"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="359" height="21.333333333333332"/>
                                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                                         <textInputTraits key="textInputTraits"/>
                                                                     </textField>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bwP-ga-Gp5" userLabel="line">
-                                                                        <rect key="frame" x="0.0" y="22.999999999999996" width="359" height="1"/>
+                                                                        <rect key="frame" x="0.0" y="21.333333333333332" width="359" height="1"/>
                                                                         <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="height" constant="1" id="GTI-XE-tJJ"/>
@@ -79,18 +79,18 @@
                                                                 </userDefinedRuntimeAttributes>
                                                             </label>
                                                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="EM1-3f-dGn">
-                                                                <rect key="frame" x="0.0" y="93.333333333333314" width="414" height="706.66666666666674"/>
+                                                                <rect key="frame" x="0.0" y="93.333333333333314" width="414" height="642.66666666666674"/>
                                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                                 <prototypes>
-                                                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" rowHeight="177" id="JUt-GS-rd3" customClass="MoiveListTableViewCell" customModule="MovieApp" customModuleProvider="target">
-                                                                        <rect key="frame" x="0.0" y="24.333333969116211" width="414" height="177"/>
+                                                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" rowHeight="195" id="JUt-GS-rd3" customClass="MoiveListTableViewCell" customModule="MovieApp" customModuleProvider="target">
+                                                                        <rect key="frame" x="0.0" y="24.333333969116211" width="414" height="195"/>
                                                                         <autoresizingMask key="autoresizingMask"/>
                                                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="JUt-GS-rd3" id="ATa-zS-duC">
-                                                                            <rect key="frame" x="0.0" y="0.0" width="414" height="177"/>
+                                                                            <rect key="frame" x="0.0" y="0.0" width="414" height="195"/>
                                                                             <autoresizingMask key="autoresizingMask"/>
                                                                             <subviews>
                                                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="h7H-OI-tmo">
-                                                                                    <rect key="frame" x="20.000000000000007" y="25" width="103.66666666666669" height="124"/>
+                                                                                    <rect key="frame" x="20.000000000000007" y="25" width="103.66666666666669" height="136.66666666666666"/>
                                                                                     <color key="backgroundColor" red="0.1333333333" green="0.0" blue="0.72549019609999998" alpha="0.40000000000000002" colorSpace="calibratedRGB"/>
                                                                                     <userDefinedRuntimeAttributes>
                                                                                         <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -110,8 +110,8 @@
                                                                                     </userDefinedRuntimeAttributes>
                                                                                 </label>
                                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Breed group" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m1k-oR-dMB" customClass="UILabelDeviceClass" customModule="MovieApp" customModuleProvider="target">
-                                                                                    <rect key="frame" x="135.66666666666663" y="78.333333333333329" width="234.33333333333337" height="17"/>
-                                                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                                    <rect key="frame" x="135.66666666666663" y="85.333333333333329" width="234.33333333333337" height="15.666666666666671"/>
+                                                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                                                                     <nil key="highlightedColor"/>
                                                                                     <userDefinedRuntimeAttributes>
@@ -121,7 +121,7 @@
                                                                                     </userDefinedRuntimeAttributes>
                                                                                 </label>
                                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Temperament" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Xh-ww-zPT" customClass="UILabelDeviceClass" customModule="MovieApp" customModuleProvider="target">
-                                                                                    <rect key="frame" x="135.66666666666663" y="121.66666666666667" width="234.33333333333337" height="14.333333333333329"/>
+                                                                                    <rect key="frame" x="135.66666666666663" y="134.33333333333334" width="234.33333333333337" height="14.333333333333343"/>
                                                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                                                                     <nil key="highlightedColor"/>
@@ -207,7 +207,7 @@
                             <constraint firstItem="ryT-0j-yPK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="3tL-oB-ZKm"/>
                             <constraint firstItem="ryT-0j-yPK" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="APq-RX-kFc"/>
                             <constraint firstItem="ryT-0j-yPK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="WdO-MP-P6B"/>
-                            <constraint firstItem="8X4-Tm-8yR" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="1.08696" id="czu-6B-Yry"/>
+                            <constraint firstItem="8X4-Tm-8yR" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="czu-6B-Yry"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="cm1-0H-gci"/>
@@ -220,7 +220,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="857.97101449275374" y="67.663043478260875"/>
+            <point key="canvasLocation" x="857.55395683453241" y="67.336683417085425"/>
         </scene>
         <!--Movie Details View Controller-->
         <scene sceneID="gb8-nY-ZV9">
@@ -243,10 +243,10 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="414" height="800"/>
                                                         <subviews>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dKT-z1-c4g">
-                                                                <rect key="frame" x="0.0" y="0.0" width="414" height="240"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="414" height="320"/>
                                                                 <subviews>
                                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="l1z-LF-myo">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="414" height="240"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="414" height="320"/>
                                                                         <color key="backgroundColor" red="0.0" green="0.46274509800000002" blue="0.70980392160000005" alpha="1" colorSpace="calibratedRGB"/>
                                                                     </imageView>
                                                                 </subviews>
@@ -259,7 +259,7 @@
                                                                 </constraints>
                                                             </view>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MfR-CO-zKs" customClass="UILabelDeviceClass" customModule="MovieApp" customModuleProvider="target">
-                                                                <rect key="frame" x="16" y="255.99999999999997" width="382" height="21.666666666666657"/>
+                                                                <rect key="frame" x="16" y="336" width="382" height="21.666666666666686"/>
                                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
@@ -269,279 +269,40 @@
                                                                     </userDefinedRuntimeAttribute>
                                                                 </userDefinedRuntimeAttributes>
                                                             </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bred for: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XMc-qu-IaD" customClass="UILabelDeviceClass" customModule="MovieApp" customModuleProvider="target">
-                                                                <rect key="frame" x="16" y="293.66666666666669" width="382" height="18"/>
-                                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
-                                                                <color key="textColor" white="0.0" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                <nil key="highlightedColor"/>
-                                                                <userDefinedRuntimeAttributes>
-                                                                    <userDefinedRuntimeAttribute type="number" keyPath="iPhoneFontSize">
-                                                                        <real key="value" value="15"/>
-                                                                    </userDefinedRuntimeAttribute>
-                                                                </userDefinedRuntimeAttributes>
-                                                            </label>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6dC-dP-NhQ">
-                                                                <rect key="frame" x="16" y="319.66666666666669" width="384" height="1"/>
+                                                                <rect key="frame" x="16" y="375.66666666666669" width="384" height="1"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="1" id="Pc7-02-Qye"/>
                                                                 </constraints>
                                                             </view>
-                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="08X-Xr-p13">
-                                                                <rect key="frame" x="24" y="328.66666666666669" width="366" height="102"/>
-                                                                <subviews>
-                                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w0Z-zh-E2P">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="366" height="50.666666666666664"/>
-                                                                        <subviews>
-                                                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="Mgr-wi-0Ej">
-                                                                                <rect key="frame" x="1" y="1" width="364" height="49.666666666666664"/>
-                                                                                <subviews>
-                                                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="G4C-01-Elj">
-                                                                                        <rect key="frame" x="0.0" y="0.0" width="120.66666666666667" height="49.666666666666664"/>
-                                                                                        <subviews>
-                                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hieght" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ow2-fF-DtV" customClass="UILabelDeviceClass" customModule="MovieApp" customModuleProvider="target">
-                                                                                                <rect key="frame" x="0.0" y="15.666666666666629" width="120.66666666666667" height="18"/>
-                                                                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
-                                                                                                <nil key="textColor"/>
-                                                                                                <nil key="highlightedColor"/>
-                                                                                                <userDefinedRuntimeAttributes>
-                                                                                                    <userDefinedRuntimeAttribute type="number" keyPath="iPhoneFontSize">
-                                                                                                        <real key="value" value="15"/>
-                                                                                                    </userDefinedRuntimeAttribute>
-                                                                                                </userDefinedRuntimeAttributes>
-                                                                                            </label>
-                                                                                        </subviews>
-                                                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                                        <constraints>
-                                                                                            <constraint firstItem="Ow2-fF-DtV" firstAttribute="centerY" secondItem="G4C-01-Elj" secondAttribute="centerY" id="1ng-yB-cTw"/>
-                                                                                            <constraint firstAttribute="trailing" secondItem="Ow2-fF-DtV" secondAttribute="trailing" id="PBx-8V-U0x"/>
-                                                                                            <constraint firstItem="Ow2-fF-DtV" firstAttribute="leading" secondItem="G4C-01-Elj" secondAttribute="leading" id="vSh-KK-Lqe"/>
-                                                                                        </constraints>
-                                                                                    </view>
-                                                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SU0-YL-o4m">
-                                                                                        <rect key="frame" x="121.66666666666666" y="0.0" width="120.66666666666666" height="49.666666666666664"/>
-                                                                                        <subviews>
-                                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Imperial" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BZS-HE-wXu" customClass="UILabelDeviceClass" customModule="MovieApp" customModuleProvider="target">
-                                                                                                <rect key="frame" x="0.0" y="3" width="120.66666666666667" height="18"/>
-                                                                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
-                                                                                                <nil key="textColor"/>
-                                                                                                <nil key="highlightedColor"/>
-                                                                                                <userDefinedRuntimeAttributes>
-                                                                                                    <userDefinedRuntimeAttribute type="number" keyPath="iPhoneFontSize">
-                                                                                                        <real key="value" value="15"/>
-                                                                                                    </userDefinedRuntimeAttribute>
-                                                                                                </userDefinedRuntimeAttributes>
-                                                                                            </label>
-                                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="9 - 11.5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hbg-zT-rGZ" customClass="UILabelDeviceClass" customModule="MovieApp" customModuleProvider="target">
-                                                                                                <rect key="frame" x="0.0" y="32.333333333333314" width="120.66666666666667" height="14.333333333333336"/>
-                                                                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="12"/>
-                                                                                                <color key="textColor" white="0.0" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                                                <nil key="highlightedColor"/>
-                                                                                                <userDefinedRuntimeAttributes>
-                                                                                                    <userDefinedRuntimeAttribute type="number" keyPath="iPhoneFontSize">
-                                                                                                        <real key="value" value="12"/>
-                                                                                                    </userDefinedRuntimeAttribute>
-                                                                                                </userDefinedRuntimeAttributes>
-                                                                                            </label>
-                                                                                        </subviews>
-                                                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                                        <constraints>
-                                                                                            <constraint firstItem="BZS-HE-wXu" firstAttribute="leading" secondItem="SU0-YL-o4m" secondAttribute="leading" id="7AU-Og-Cdz"/>
-                                                                                            <constraint firstItem="BZS-HE-wXu" firstAttribute="top" secondItem="SU0-YL-o4m" secondAttribute="top" constant="3" id="EbG-0Z-9EN"/>
-                                                                                            <constraint firstAttribute="trailing" secondItem="Hbg-zT-rGZ" secondAttribute="trailing" id="MGL-z6-GUc"/>
-                                                                                            <constraint firstItem="Hbg-zT-rGZ" firstAttribute="leading" secondItem="SU0-YL-o4m" secondAttribute="leading" id="RKY-Cf-Om7"/>
-                                                                                            <constraint firstAttribute="bottom" secondItem="Hbg-zT-rGZ" secondAttribute="bottom" constant="3" id="Uk6-Nc-ftB"/>
-                                                                                            <constraint firstAttribute="trailing" secondItem="BZS-HE-wXu" secondAttribute="trailing" id="hbR-vY-as6"/>
-                                                                                        </constraints>
-                                                                                    </view>
-                                                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zzo-Er-lVn">
-                                                                                        <rect key="frame" x="243.33333333333329" y="0.0" width="120.66666666666666" height="49.666666666666664"/>
-                                                                                        <subviews>
-                                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Metric" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZMM-RV-aJU" customClass="UILabelDeviceClass" customModule="MovieApp" customModuleProvider="target">
-                                                                                                <rect key="frame" x="0.0" y="3" width="120.66666666666667" height="18"/>
-                                                                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
-                                                                                                <nil key="textColor"/>
-                                                                                                <nil key="highlightedColor"/>
-                                                                                                <userDefinedRuntimeAttributes>
-                                                                                                    <userDefinedRuntimeAttribute type="number" keyPath="iPhoneFontSize">
-                                                                                                        <real key="value" value="15"/>
-                                                                                                    </userDefinedRuntimeAttribute>
-                                                                                                </userDefinedRuntimeAttributes>
-                                                                                            </label>
-                                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="23 - 29" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w5h-FW-dTT" customClass="UILabelDeviceClass" customModule="MovieApp" customModuleProvider="target">
-                                                                                                <rect key="frame" x="0.0" y="32.333333333333314" width="120.66666666666667" height="14.333333333333336"/>
-                                                                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="12"/>
-                                                                                                <color key="textColor" white="0.0" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                                                <nil key="highlightedColor"/>
-                                                                                                <userDefinedRuntimeAttributes>
-                                                                                                    <userDefinedRuntimeAttribute type="number" keyPath="iPhoneFontSize">
-                                                                                                        <real key="value" value="12"/>
-                                                                                                    </userDefinedRuntimeAttribute>
-                                                                                                </userDefinedRuntimeAttributes>
-                                                                                            </label>
-                                                                                        </subviews>
-                                                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                                        <constraints>
-                                                                                            <constraint firstAttribute="trailing" secondItem="w5h-FW-dTT" secondAttribute="trailing" id="0be-H5-eof"/>
-                                                                                            <constraint firstAttribute="trailing" secondItem="ZMM-RV-aJU" secondAttribute="trailing" id="CIW-CA-uPc"/>
-                                                                                            <constraint firstAttribute="bottom" secondItem="w5h-FW-dTT" secondAttribute="bottom" constant="3" id="G9V-ge-QX9"/>
-                                                                                            <constraint firstItem="w5h-FW-dTT" firstAttribute="leading" secondItem="Zzo-Er-lVn" secondAttribute="leading" id="Mve-5X-Wcl"/>
-                                                                                            <constraint firstItem="ZMM-RV-aJU" firstAttribute="top" secondItem="Zzo-Er-lVn" secondAttribute="top" constant="3" id="eZl-HS-ttl"/>
-                                                                                            <constraint firstItem="ZMM-RV-aJU" firstAttribute="leading" secondItem="Zzo-Er-lVn" secondAttribute="leading" id="n00-0N-iJQ"/>
-                                                                                        </constraints>
-                                                                                    </view>
-                                                                                </subviews>
-                                                                            </stackView>
-                                                                        </subviews>
-                                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                        <constraints>
-                                                                            <constraint firstAttribute="bottom" secondItem="Mgr-wi-0Ej" secondAttribute="bottom" id="83v-9x-Vb8"/>
-                                                                            <constraint firstItem="Mgr-wi-0Ej" firstAttribute="top" secondItem="w0Z-zh-E2P" secondAttribute="top" constant="1" id="kCz-eb-4qV"/>
-                                                                            <constraint firstItem="Mgr-wi-0Ej" firstAttribute="leading" secondItem="w0Z-zh-E2P" secondAttribute="leading" constant="1" id="vRt-vj-btg"/>
-                                                                            <constraint firstAttribute="trailing" secondItem="Mgr-wi-0Ej" secondAttribute="trailing" constant="1" id="zPw-Xm-bOI"/>
-                                                                        </constraints>
-                                                                    </view>
-                                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="csA-Ek-9vE">
-                                                                        <rect key="frame" x="0.0" y="51.666666666666629" width="366" height="50.333333333333343"/>
-                                                                        <subviews>
-                                                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="DmD-0e-gtv">
-                                                                                <rect key="frame" x="1" y="0.0" width="364" height="49"/>
-                                                                                <subviews>
-                                                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="76T-ph-dZR">
-                                                                                        <rect key="frame" x="0.0" y="0.0" width="120.66666666666667" height="49"/>
-                                                                                        <subviews>
-                                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weight" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hau-0U-6Nv" customClass="UILabelDeviceClass" customModule="MovieApp" customModuleProvider="target">
-                                                                                                <rect key="frame" x="0.0" y="15.333333333333371" width="120.66666666666667" height="18"/>
-                                                                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
-                                                                                                <nil key="textColor"/>
-                                                                                                <nil key="highlightedColor"/>
-                                                                                                <userDefinedRuntimeAttributes>
-                                                                                                    <userDefinedRuntimeAttribute type="number" keyPath="iPhoneFontSize">
-                                                                                                        <real key="value" value="15"/>
-                                                                                                    </userDefinedRuntimeAttribute>
-                                                                                                </userDefinedRuntimeAttributes>
-                                                                                            </label>
-                                                                                        </subviews>
-                                                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                                        <constraints>
-                                                                                            <constraint firstItem="hau-0U-6Nv" firstAttribute="centerY" secondItem="76T-ph-dZR" secondAttribute="centerY" id="FSU-oT-zjt"/>
-                                                                                            <constraint firstAttribute="trailing" secondItem="hau-0U-6Nv" secondAttribute="trailing" id="O5N-0n-da6"/>
-                                                                                            <constraint firstItem="hau-0U-6Nv" firstAttribute="leading" secondItem="76T-ph-dZR" secondAttribute="leading" id="Znz-Kv-NS3"/>
-                                                                                        </constraints>
-                                                                                    </view>
-                                                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xsh-3g-bS3">
-                                                                                        <rect key="frame" x="121.66666666666666" y="0.0" width="120.66666666666666" height="49"/>
-                                                                                        <subviews>
-                                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Imperial" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hpN-sp-6dt" customClass="UILabelDeviceClass" customModule="MovieApp" customModuleProvider="target">
-                                                                                                <rect key="frame" x="0.0" y="3" width="120.66666666666667" height="18"/>
-                                                                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
-                                                                                                <nil key="textColor"/>
-                                                                                                <nil key="highlightedColor"/>
-                                                                                                <userDefinedRuntimeAttributes>
-                                                                                                    <userDefinedRuntimeAttribute type="number" keyPath="iPhoneFontSize">
-                                                                                                        <real key="value" value="15"/>
-                                                                                                    </userDefinedRuntimeAttribute>
-                                                                                                </userDefinedRuntimeAttributes>
-                                                                                            </label>
-                                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="9 - 11.5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1DY-cD-gH4" customClass="UILabelDeviceClass" customModule="MovieApp" customModuleProvider="target">
-                                                                                                <rect key="frame" x="0.0" y="31.666666666666682" width="120.66666666666667" height="14.333333333333332"/>
-                                                                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="12"/>
-                                                                                                <color key="textColor" white="0.0" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                                                <nil key="highlightedColor"/>
-                                                                                                <userDefinedRuntimeAttributes>
-                                                                                                    <userDefinedRuntimeAttribute type="number" keyPath="iPhoneFontSize">
-                                                                                                        <real key="value" value="12"/>
-                                                                                                    </userDefinedRuntimeAttribute>
-                                                                                                </userDefinedRuntimeAttributes>
-                                                                                            </label>
-                                                                                        </subviews>
-                                                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                                        <constraints>
-                                                                                            <constraint firstAttribute="trailing" secondItem="1DY-cD-gH4" secondAttribute="trailing" id="EVz-0j-6W6"/>
-                                                                                            <constraint firstItem="hpN-sp-6dt" firstAttribute="leading" secondItem="xsh-3g-bS3" secondAttribute="leading" id="Yhx-jW-ZAG"/>
-                                                                                            <constraint firstItem="1DY-cD-gH4" firstAttribute="leading" secondItem="xsh-3g-bS3" secondAttribute="leading" id="gAQ-mC-Pgx"/>
-                                                                                            <constraint firstItem="hpN-sp-6dt" firstAttribute="top" secondItem="xsh-3g-bS3" secondAttribute="top" constant="3" id="pPU-7f-hRe"/>
-                                                                                            <constraint firstAttribute="trailing" secondItem="hpN-sp-6dt" secondAttribute="trailing" id="q0D-ro-bmc"/>
-                                                                                            <constraint firstAttribute="bottom" secondItem="1DY-cD-gH4" secondAttribute="bottom" constant="3" id="uYC-bK-Qi5"/>
-                                                                                        </constraints>
-                                                                                    </view>
-                                                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mkd-Fs-0Jp">
-                                                                                        <rect key="frame" x="243.33333333333329" y="0.0" width="120.66666666666666" height="49"/>
-                                                                                        <subviews>
-                                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Metric" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2ni-iZ-AuI" customClass="UILabelDeviceClass" customModule="MovieApp" customModuleProvider="target">
-                                                                                                <rect key="frame" x="0.0" y="3" width="120.66666666666667" height="18"/>
-                                                                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
-                                                                                                <nil key="textColor"/>
-                                                                                                <nil key="highlightedColor"/>
-                                                                                                <userDefinedRuntimeAttributes>
-                                                                                                    <userDefinedRuntimeAttribute type="number" keyPath="iPhoneFontSize">
-                                                                                                        <real key="value" value="15"/>
-                                                                                                    </userDefinedRuntimeAttribute>
-                                                                                                </userDefinedRuntimeAttributes>
-                                                                                            </label>
-                                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="23 - 29" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rsi-Pf-XGc" customClass="UILabelDeviceClass" customModule="MovieApp" customModuleProvider="target">
-                                                                                                <rect key="frame" x="0.0" y="31.666666666666682" width="120.66666666666667" height="14.333333333333332"/>
-                                                                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="12"/>
-                                                                                                <color key="textColor" white="0.0" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                                                <nil key="highlightedColor"/>
-                                                                                                <userDefinedRuntimeAttributes>
-                                                                                                    <userDefinedRuntimeAttribute type="number" keyPath="iPhoneFontSize">
-                                                                                                        <real key="value" value="12"/>
-                                                                                                    </userDefinedRuntimeAttribute>
-                                                                                                </userDefinedRuntimeAttributes>
-                                                                                            </label>
-                                                                                        </subviews>
-                                                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                                        <constraints>
-                                                                                            <constraint firstItem="2ni-iZ-AuI" firstAttribute="top" secondItem="Mkd-Fs-0Jp" secondAttribute="top" constant="3" id="6Lk-0c-pN1"/>
-                                                                                            <constraint firstAttribute="bottom" secondItem="rsi-Pf-XGc" secondAttribute="bottom" constant="3" id="Atk-ar-C5t"/>
-                                                                                            <constraint firstAttribute="trailing" secondItem="2ni-iZ-AuI" secondAttribute="trailing" id="WOl-bh-Y7O"/>
-                                                                                            <constraint firstItem="rsi-Pf-XGc" firstAttribute="leading" secondItem="Mkd-Fs-0Jp" secondAttribute="leading" id="YNZ-e2-I2c"/>
-                                                                                            <constraint firstAttribute="trailing" secondItem="rsi-Pf-XGc" secondAttribute="trailing" id="loQ-eC-KMX"/>
-                                                                                            <constraint firstItem="2ni-iZ-AuI" firstAttribute="leading" secondItem="Mkd-Fs-0Jp" secondAttribute="leading" id="zkd-iR-eAQ"/>
-                                                                                        </constraints>
-                                                                                    </view>
-                                                                                </subviews>
-                                                                            </stackView>
-                                                                        </subviews>
-                                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                        <constraints>
-                                                                            <constraint firstAttribute="bottom" secondItem="DmD-0e-gtv" secondAttribute="bottom" constant="1.5" id="5FX-pn-78r"/>
-                                                                            <constraint firstItem="DmD-0e-gtv" firstAttribute="leading" secondItem="csA-Ek-9vE" secondAttribute="leading" constant="1" id="8Uv-v0-ZFz"/>
-                                                                            <constraint firstItem="DmD-0e-gtv" firstAttribute="top" secondItem="csA-Ek-9vE" secondAttribute="top" id="Eg3-Ue-BvA"/>
-                                                                            <constraint firstAttribute="trailing" secondItem="DmD-0e-gtv" secondAttribute="trailing" constant="1" id="Qr0-Ab-USU"/>
-                                                                        </constraints>
-                                                                    </view>
-                                                                </subviews>
-                                                                <color key="backgroundColor" white="0.0" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                            </stackView>
-                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="location.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="XTc-wS-Ei7">
-                                                                <rect key="frame" x="15.999999999999998" y="447.66666666666669" width="20.333333333333329" height="19"/>
-                                                                <color key="tintColor" white="0.0" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="XTc-wS-Ei7">
+                                                                <rect key="frame" x="16" y="393" width="22" height="21.666666666666686"/>
+                                                                <color key="tintColor" systemColor="systemYellowColor"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" secondItem="XTc-wS-Ei7" secondAttribute="height" multiplier="1:1" id="hAY-z6-uNW"/>
                                                                 </constraints>
                                                             </imageView>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Origin:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m8w-O0-taZ" customClass="UILabelDeviceClass" customModule="MovieApp" customModuleProvider="target">
-                                                                <rect key="frame" x="44.333333333333343" y="449" width="353.66666666666663" height="15.666666666666686"/>
-                                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="13"/>
-                                                                <color key="textColor" white="0.0" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rating" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m8w-O0-taZ" customClass="UILabelDeviceClass" customModule="MovieApp" customModuleProvider="target">
+                                                                <rect key="frame" x="46" y="394.66666666666669" width="352" height="19.333333333333314"/>
+                                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <nil key="highlightedColor"/>
                                                                 <userDefinedRuntimeAttributes>
                                                                     <userDefinedRuntimeAttribute type="number" keyPath="iPhoneFontSize">
-                                                                        <real key="value" value="13"/>
+                                                                        <real key="value" value="16"/>
                                                                     </userDefinedRuntimeAttribute>
                                                                 </userDefinedRuntimeAttributes>
                                                             </label>
-                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow.up.heart.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="sGT-Cs-7KJ">
-                                                                <rect key="frame" x="16" y="485" width="20.666666666666671" height="17.666666666666686"/>
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="calendar" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="sGT-Cs-7KJ">
+                                                                <rect key="frame" x="16" y="454" width="20.666666666666671" height="17.666666666666686"/>
                                                                 <color key="tintColor" white="0.0" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" secondItem="sGT-Cs-7KJ" secondAttribute="height" multiplier="1:1" id="cF0-cm-PI8"/>
                                                                 </constraints>
                                                             </imageView>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Life Span: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zLE-fm-Zvj" customClass="UILabelDeviceClass" customModule="MovieApp" customModuleProvider="target">
-                                                                <rect key="frame" x="44.666666666666657" y="485.66666666666669" width="353.33333333333337" height="15.666666666666686"/>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Year" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zLE-fm-Zvj" customClass="UILabelDeviceClass" customModule="MovieApp" customModuleProvider="target">
+                                                                <rect key="frame" x="44.666666666666657" y="455" width="353.33333333333337" height="15.666666666666686"/>
                                                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="13"/>
                                                                 <color key="textColor" white="0.0" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <nil key="highlightedColor"/>
@@ -552,14 +313,14 @@
                                                                 </userDefinedRuntimeAttributes>
                                                             </label>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nuO-rs-5od">
-                                                                <rect key="frame" x="16" y="511.66666666666674" width="382" height="1"/>
+                                                                <rect key="frame" x="16" y="491" width="382" height="1"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="1" id="D0e-ae-LoF"/>
                                                                 </constraints>
                                                             </view>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EAn-gg-Vbg" customClass="UILabelDeviceClass" customModule="MovieApp" customModuleProvider="target">
-                                                                <rect key="frame" x="16" y="528.66666666666663" width="382" height="21.666666666666629"/>
+                                                                <rect key="frame" x="16" y="508.00000000000006" width="382" height="21.666666666666686"/>
                                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
@@ -570,7 +331,7 @@
                                                                 </userDefinedRuntimeAttributes>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gvn-q3-ZlC" customClass="UILabelDeviceClass" customModule="MovieApp" customModuleProvider="target">
-                                                                <rect key="frame" x="24" y="556.33333333333337" width="347" height="86"/>
+                                                                <rect key="frame" x="24" y="535.66666666666663" width="347" height="86"/>
                                                                 <string key="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,.</string>
                                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="12"/>
                                                                 <color key="textColor" white="0.0" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -581,45 +342,48 @@
                                                                     </userDefinedRuntimeAttribute>
                                                                 </userDefinedRuntimeAttributes>
                                                             </label>
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a8V-ro-WUM">
+                                                                <rect key="frame" x="16" y="433.33333333333331" width="382" height="1"/>
+                                                                <color key="backgroundColor" white="0.0" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="1" id="EEU-fI-poC"/>
+                                                                </constraints>
+                                                            </view>
                                                         </subviews>
                                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="trailing" secondItem="XMc-qu-IaD" secondAttribute="trailing" constant="16" id="0bb-Zm-1Ng"/>
                                                             <constraint firstAttribute="height" constant="800" id="2mm-IC-Ous"/>
-                                                            <constraint firstItem="6dC-dP-NhQ" firstAttribute="top" secondItem="XMc-qu-IaD" secondAttribute="bottom" constant="8" id="6fa-BF-IF2"/>
+                                                            <constraint firstItem="m8w-O0-taZ" firstAttribute="top" secondItem="6dC-dP-NhQ" secondAttribute="bottom" constant="18" id="7Uh-g8-nK5"/>
                                                             <constraint firstItem="EAn-gg-Vbg" firstAttribute="top" secondItem="nuO-rs-5od" secondAttribute="bottom" constant="16" id="8gM-oo-Ydi"/>
-                                                            <constraint firstItem="08X-Xr-p13" firstAttribute="height" secondItem="MEk-cO-iEl" secondAttribute="height" multiplier="0.1275" id="Arb-S7-Cvd"/>
-                                                            <constraint firstItem="nuO-rs-5od" firstAttribute="top" secondItem="sGT-Cs-7KJ" secondAttribute="bottom" constant="8" id="DnD-y1-pbo"/>
+                                                            <constraint firstItem="nuO-rs-5od" firstAttribute="top" secondItem="sGT-Cs-7KJ" secondAttribute="bottom" constant="18" id="DnD-y1-pbo"/>
                                                             <constraint firstItem="sGT-Cs-7KJ" firstAttribute="leading" secondItem="MEk-cO-iEl" secondAttribute="leading" constant="16" id="ETv-Iv-ofl"/>
                                                             <constraint firstItem="zLE-fm-Zvj" firstAttribute="centerY" secondItem="sGT-Cs-7KJ" secondAttribute="centerY" id="FiK-4y-UN8"/>
                                                             <constraint firstItem="MfR-CO-zKs" firstAttribute="leading" secondItem="MEk-cO-iEl" secondAttribute="leading" constant="16" id="Her-aK-oZd"/>
                                                             <constraint firstItem="zLE-fm-Zvj" firstAttribute="leading" secondItem="sGT-Cs-7KJ" secondAttribute="trailing" constant="8" id="IGz-lB-rse"/>
                                                             <constraint firstItem="EAn-gg-Vbg" firstAttribute="leading" secondItem="MEk-cO-iEl" secondAttribute="leading" constant="16" id="JXA-zA-6zV"/>
                                                             <constraint firstAttribute="trailing" secondItem="nuO-rs-5od" secondAttribute="trailing" constant="16" id="Jn9-bT-qiR"/>
+                                                            <constraint firstItem="a8V-ro-WUM" firstAttribute="top" secondItem="XTc-wS-Ei7" secondAttribute="bottom" constant="18" id="KKU-k0-d6B"/>
                                                             <constraint firstItem="MfR-CO-zKs" firstAttribute="top" secondItem="dKT-z1-c4g" secondAttribute="bottom" constant="16" id="Kch-R8-csQ"/>
                                                             <constraint firstItem="dKT-z1-c4g" firstAttribute="leading" secondItem="MEk-cO-iEl" secondAttribute="leading" id="KnB-UB-6Z1"/>
-                                                            <constraint firstAttribute="trailing" secondItem="08X-Xr-p13" secondAttribute="trailing" constant="24" id="Ktg-zx-OSt"/>
                                                             <constraint firstItem="nuO-rs-5od" firstAttribute="leading" secondItem="MEk-cO-iEl" secondAttribute="leading" constant="16" id="MHE-zN-IUm"/>
                                                             <constraint firstAttribute="trailing" secondItem="EAn-gg-Vbg" secondAttribute="trailing" constant="16" id="RPP-Cg-g4w"/>
                                                             <constraint firstAttribute="trailing" secondItem="6dC-dP-NhQ" secondAttribute="trailing" constant="14" id="RmE-g3-68u"/>
                                                             <constraint firstItem="m8w-O0-taZ" firstAttribute="centerY" secondItem="XTc-wS-Ei7" secondAttribute="centerY" id="UaN-QB-dg9"/>
                                                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="gvn-q3-ZlC" secondAttribute="trailing" constant="40" id="aHT-Ki-1Dn"/>
+                                                            <constraint firstItem="a8V-ro-WUM" firstAttribute="leading" secondItem="MEk-cO-iEl" secondAttribute="leading" constant="16" id="ajz-0l-gYw"/>
                                                             <constraint firstItem="gvn-q3-ZlC" firstAttribute="leading" secondItem="MEk-cO-iEl" secondAttribute="leading" constant="24" id="chv-Of-8ez"/>
                                                             <constraint firstAttribute="trailing" secondItem="m8w-O0-taZ" secondAttribute="trailing" constant="16" id="eh2-DC-YjI"/>
-                                                            <constraint firstItem="08X-Xr-p13" firstAttribute="leading" secondItem="MEk-cO-iEl" secondAttribute="leading" constant="24" id="fgo-8H-Dxr"/>
                                                             <constraint firstAttribute="trailing" secondItem="MfR-CO-zKs" secondAttribute="trailing" constant="16" id="fnh-F7-2xc"/>
-                                                            <constraint firstItem="XMc-qu-IaD" firstAttribute="top" secondItem="MfR-CO-zKs" secondAttribute="bottom" constant="16" id="fxt-An-AGh"/>
                                                             <constraint firstItem="m8w-O0-taZ" firstAttribute="leading" secondItem="XTc-wS-Ei7" secondAttribute="trailing" constant="8" id="g8U-mf-Z91"/>
-                                                            <constraint firstItem="sGT-Cs-7KJ" firstAttribute="top" secondItem="XTc-wS-Ei7" secondAttribute="bottom" constant="16" id="hJl-od-1KC"/>
-                                                            <constraint firstItem="XTc-wS-Ei7" firstAttribute="top" secondItem="08X-Xr-p13" secondAttribute="bottom" constant="16" id="hMX-5j-hJS"/>
+                                                            <constraint firstItem="6dC-dP-NhQ" firstAttribute="top" secondItem="MfR-CO-zKs" secondAttribute="bottom" constant="18" id="hJV-W8-CsK"/>
                                                             <constraint firstItem="XTc-wS-Ei7" firstAttribute="leading" secondItem="MEk-cO-iEl" secondAttribute="leading" constant="16" id="hNf-8e-WZ3"/>
+                                                            <constraint firstAttribute="trailing" secondItem="a8V-ro-WUM" secondAttribute="trailing" constant="16" id="hse-kp-EDV"/>
                                                             <constraint firstAttribute="trailing" secondItem="zLE-fm-Zvj" secondAttribute="trailing" constant="16" id="iCU-ZW-5pP"/>
-                                                            <constraint firstItem="08X-Xr-p13" firstAttribute="top" secondItem="6dC-dP-NhQ" secondAttribute="bottom" constant="8" id="mZw-Kq-ZAC"/>
                                                             <constraint firstItem="dKT-z1-c4g" firstAttribute="top" secondItem="MEk-cO-iEl" secondAttribute="top" id="rFw-iC-G7J"/>
                                                             <constraint firstItem="6dC-dP-NhQ" firstAttribute="leading" secondItem="MEk-cO-iEl" secondAttribute="leading" constant="16" id="rqs-qg-i0E"/>
                                                             <constraint firstAttribute="trailing" secondItem="dKT-z1-c4g" secondAttribute="trailing" id="saG-aG-hkj"/>
+                                                            <constraint firstItem="sGT-Cs-7KJ" firstAttribute="top" secondItem="a8V-ro-WUM" secondAttribute="bottom" constant="18" id="tAE-ew-WIh"/>
                                                             <constraint firstItem="gvn-q3-ZlC" firstAttribute="top" secondItem="EAn-gg-Vbg" secondAttribute="bottom" constant="6" id="x6Q-zH-AnU"/>
-                                                            <constraint firstItem="XMc-qu-IaD" firstAttribute="leading" secondItem="MEk-cO-iEl" secondAttribute="leading" constant="16" id="yw3-r3-djb"/>
                                                         </constraints>
                                                     </view>
                                                 </subviews>
@@ -637,7 +401,7 @@
                                             <constraint firstAttribute="bottom" secondItem="zzX-rR-j59" secondAttribute="bottom" id="F97-iR-rdu"/>
                                             <constraint firstItem="zzX-rR-j59" firstAttribute="leading" secondItem="mgv-3l-jgc" secondAttribute="leading" id="YAP-qo-e3O"/>
                                             <constraint firstItem="zzX-rR-j59" firstAttribute="top" secondItem="mgv-3l-jgc" secondAttribute="top" id="c62-kk-fwC"/>
-                                            <constraint firstItem="dKT-z1-c4g" firstAttribute="height" secondItem="mgv-3l-jgc" secondAttribute="height" multiplier="0.3" id="oOC-YM-XB4"/>
+                                            <constraint firstItem="dKT-z1-c4g" firstAttribute="height" secondItem="mgv-3l-jgc" secondAttribute="height" multiplier="0.4" id="oOC-YM-XB4"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -691,17 +455,12 @@
                     </view>
                     <navigationItem key="navigationItem" id="nqr-Bp-rIk"/>
                     <connections>
-                        <outlet property="bred_for" destination="XMc-qu-IaD" id="atr-OX-0z5"/>
                         <outlet property="favourite_button" destination="hQs-Ag-0iL" id="IZh-tJ-70Y"/>
                         <outlet property="imageBanner" destination="l1z-LF-myo" id="o4b-AX-TAD"/>
-                        <outlet property="imperialHeight" destination="Hbg-zT-rGZ" id="x6E-Ru-MbQ"/>
-                        <outlet property="imperialWeight" destination="1DY-cD-gH4" id="nJ9-Mt-phb"/>
-                        <outlet property="life_span" destination="zLE-fm-Zvj" id="rT0-LH-NJT"/>
-                        <outlet property="matricHeight" destination="w5h-FW-dTT" id="huW-Rn-gMi"/>
-                        <outlet property="matricWeight" destination="rsi-Pf-XGc" id="Cyj-0t-Pdq"/>
                         <outlet property="movieDescription" destination="gvn-q3-ZlC" id="0qo-os-ta4"/>
+                        <outlet property="movieRating" destination="m8w-O0-taZ" id="BrM-v6-wU8"/>
+                        <outlet property="movieYear" destination="zLE-fm-Zvj" id="rT0-LH-NJT"/>
                         <outlet property="name" destination="MfR-CO-zKs" id="n8Q-ra-6ny"/>
-                        <outlet property="origin" destination="m8w-O0-taZ" id="BrM-v6-wU8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QnM-X1-61y" sceneMemberID="firstResponder"/>
@@ -727,13 +486,16 @@
         </scene>
     </scenes>
     <resources>
-        <image name="arrow.up.heart.fill" catalog="system" width="128" height="109"/>
+        <image name="calendar" catalog="system" width="128" height="106"/>
         <image name="chevron.backward" catalog="system" width="96" height="128"/>
-        <image name="location.circle.fill" catalog="system" width="128" height="121"/>
         <image name="magnifyingglass" catalog="system" width="128" height="115"/>
         <image name="star" catalog="system" width="128" height="116"/>
+        <image name="star.fill" catalog="system" width="128" height="116"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
