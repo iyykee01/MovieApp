@@ -10,7 +10,7 @@ import UIKit
 class MovieDetailsViewController: UIViewController {
     
     
-    @IBOutlet weak var imageBanner: UIView!
+    @IBOutlet weak var imageBanner: UIImageView!
     @IBOutlet weak var name: UILabelDeviceClass!
     @IBOutlet weak var bred_for: UILabelDeviceClass!
     @IBOutlet weak var imperialHeight: UILabelDeviceClass!
@@ -21,16 +21,20 @@ class MovieDetailsViewController: UIViewController {
     
     @IBOutlet weak var origin: UILabelDeviceClass!
     @IBOutlet weak var life_span: UILabelDeviceClass!
-    @IBOutlet weak var dog_description: UILabelDeviceClass!
+    @IBOutlet weak var movieDescription: UILabelDeviceClass!
     @IBOutlet weak var favourite_button: UIButton!
     
     var favourite = false
+    var selectedMovie: Movie?
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        displayMovieInfo();
+        
+       
     }
     
     //TODO: - Add method to set up view on view load
@@ -38,7 +42,14 @@ class MovieDetailsViewController: UIViewController {
      This method will display dog data from previous screen index
      */
     
-    func displayDogData () {
+    func displayMovieInfo() {
+        let imageUrl = selectedMovie?.posterImage
+        guard let imgExtString = imageUrl else {return}
+        let urlString = "https://image.tmdb.org/t/p/w300" + imgExtString
+        imageBanner.kf.setImage(with: URL(string: urlString))
+        
+        name.text = "Name: \(selectedMovie?.title ?? "")"
+        movieDescription.text = selectedMovie?.overview
         
     }
     

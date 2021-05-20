@@ -6,12 +6,13 @@
 //
 
 import UIKit
+import Kingfisher
 
 class MoiveListTableViewCell: UITableViewCell {
 
     @IBOutlet weak var movieImage: UIImageView!
-    @IBOutlet weak var movieYear: UILabelDeviceClass!
     @IBOutlet weak var movieTitle: UILabelDeviceClass!
+    @IBOutlet weak var movieYear: UILabelDeviceClass!
     @IBOutlet weak var movieDescription: UILabelDeviceClass!
     
     
@@ -29,8 +30,14 @@ class MoiveListTableViewCell: UITableViewCell {
     func setUpCell(with movie: Movie) {
         
         movieTitle.text = movie.title
-        movieYear.text = movie.year
-        movieDescription.text = movie.overview
+        movieYear.text = movie.overview
+        movieDescription.text =  "1 hour 30mins"
+        
+        let imageUrl = movie.posterImage
+        guard let imgExtString = imageUrl else {return}
+        let urlString = "https://image.tmdb.org/t/p/w300" + imgExtString
+        
+        movieImage.kf.setImage(with: URL(string: urlString))
         
     }
 

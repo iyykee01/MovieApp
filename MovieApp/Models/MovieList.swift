@@ -19,7 +19,7 @@ class MovieList {
  
     
     
-    func movieAPIrequest () {
+    func movieAPIrequest (completion: @escaping([Movie]) -> ()) {
         
         let request = NSMutableURLRequest(url: NSURL(string: "\(baseURL)")! as URL)
         
@@ -38,6 +38,7 @@ class MovieList {
             }
             
             print(movies)
+            completion(movies.movies)
         }
         dataTask.resume()
     }
