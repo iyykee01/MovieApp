@@ -10,7 +10,7 @@ import XCTest
 class MovieAppUITests: XCTestCase {
 
    
-    func testExample() throws {
+    func testCasewhenUserPressesSearchButton() throws {
         
         let app = XCUIApplication()
         app.launch()
@@ -20,9 +20,6 @@ class MovieAppUITests: XCTestCase {
 
         let textField = app.textFields["textField"]
         XCTAssertEqual(true, textField.isHittable)
-
     }
-
-    
     
 }
