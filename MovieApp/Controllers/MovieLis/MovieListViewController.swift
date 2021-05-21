@@ -15,6 +15,7 @@ class MovieListViewController: UIViewController {
     
     var movieArray = [Movie]()
     var filterMovie = [Movie]()
+    
     var showTextField = false
     var searching = false
     var selectedMovie: Movie?
@@ -33,7 +34,7 @@ class MovieListViewController: UIViewController {
          Calling API moview request to fetch data
          And assign data to our array above
          */
-        MovieList.shared.movieAPIrequest { [self] movie in
+        MovieList.shared.movieAPIrequest { [self] (movie) in
             DispatchQueue.main.async {
                 movieArray = movie
                 tableView.reloadData();
@@ -42,7 +43,7 @@ class MovieListViewController: UIViewController {
         }
     }
     
-    //Search textfield appears should appear on button is pressed.
+    //MARK:  - Search textfield appears should appear on button is pressed.
     @IBAction func searchButtonPressed(_ sender: Any) {
         showTextField.toggle();
         if showTextField {
@@ -60,6 +61,7 @@ class MovieListViewController: UIViewController {
         }
     }
     
+    //MARK: - Method will increase table view rowhieght for either landscape mode or potrait mode
     override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
         super.viewWillTransition(to: size, with: coordinator)
         if UIDevice.current.orientation.isLandscape {
@@ -71,6 +73,7 @@ class MovieListViewController: UIViewController {
     }
     
     
+    //MARK: - Mehtod to pass data after between screens
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "goToPreview" {
             let destination = segue.destination as? MovieDetailsViewController
@@ -80,6 +83,8 @@ class MovieListViewController: UIViewController {
     
 }
 
+
+//Text field delegate
 extension MovieListViewController: UITextFieldDelegate {
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
@@ -99,6 +104,8 @@ extension MovieListViewController: UITextFieldDelegate {
     }
 }
 
+
+//MARK: - Tableview delegate and data source
 extension MovieListViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return searching ? filterMovie.count : movieArray.count

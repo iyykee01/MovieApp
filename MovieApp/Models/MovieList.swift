@@ -6,12 +6,13 @@
 //
 
 import Foundation
+import UIKit
 
 class MovieList {
     
     /*:
-     Created a static variable instanciating the DogBreedApi class
-     So i don't created instaces whenever i need to call the DogBreedApi
+     Created a static variable instanciating the MovieList class
+     So i don't created instaces whenever i need to call the MovieList
      */
     static let shared = MovieList()
     
@@ -36,16 +37,15 @@ class MovieList {
                 print("Couldn't decode json")
                 return
             }
-            
-            print(movies)
             completion(movies.movies)
         }
         dataTask.resume()
     }
+
     
 }
 
-struct MoviesData: Decodable {
+struct MoviesData: Codable {
     let movies: [Movie]
     
     private enum CodingKeys: String, CodingKey {
@@ -53,14 +53,16 @@ struct MoviesData: Decodable {
     }
 }
 
-struct Movie: Decodable {
+//Movie Model
+struct Movie: Codable {
     
     let title: String?
     let year: String?
     let rate: Double?
     let posterImage: String?
-    let overview: String?
+    var overview: String?
     
+    // Set default Movie parameters for movie model
     private enum CodingKeys: String, CodingKey {
         case title, overview
         case year = "release_date"

@@ -27,6 +27,7 @@ class MoiveListTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
+    //MARK: - Set up cell for table view
     func setUpCell(with movie: Movie) {
         
         movieTitle.text = movie.title

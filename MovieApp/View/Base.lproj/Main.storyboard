@@ -31,6 +31,7 @@
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4zV-ln-WBH">
                                                                 <rect key="frame" x="375" y="24" width="31" height="31"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <accessibility key="accessibilityConfiguration" label="searchButton"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" secondItem="4zV-ln-WBH" secondAttribute="height" multiplier="1:1" id="p40-wm-4fb"/>
                                                                 </constraints>
@@ -45,6 +46,7 @@
                                                                 <subviews>
                                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VSp-ua-RNc">
                                                                         <rect key="frame" x="0.0" y="0.0" width="359" height="21.333333333333332"/>
+                                                                        <accessibility key="accessibilityConfiguration" label="textField"/>
                                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                                         <textInputTraits key="textInputTraits"/>
                                                                     </textField>
@@ -82,15 +84,15 @@
                                                                 <rect key="frame" x="0.0" y="93.333333333333314" width="414" height="642.66666666666674"/>
                                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                                 <prototypes>
-                                                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" rowHeight="195" id="JUt-GS-rd3" customClass="MoiveListTableViewCell" customModule="MovieApp" customModuleProvider="target">
-                                                                        <rect key="frame" x="0.0" y="24.333333969116211" width="414" height="195"/>
+                                                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" rowHeight="194" id="JUt-GS-rd3" customClass="MoiveListTableViewCell" customModule="MovieApp" customModuleProvider="target">
+                                                                        <rect key="frame" x="0.0" y="24.333333969116211" width="414" height="194"/>
                                                                         <autoresizingMask key="autoresizingMask"/>
                                                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="JUt-GS-rd3" id="ATa-zS-duC">
-                                                                            <rect key="frame" x="0.0" y="0.0" width="414" height="195"/>
+                                                                            <rect key="frame" x="0.0" y="0.0" width="414" height="194"/>
                                                                             <autoresizingMask key="autoresizingMask"/>
                                                                             <subviews>
                                                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="h7H-OI-tmo">
-                                                                                    <rect key="frame" x="20.000000000000007" y="25" width="103.66666666666669" height="136.66666666666666"/>
+                                                                                    <rect key="frame" x="20.000000000000007" y="25" width="103.66666666666669" height="135.66666666666666"/>
                                                                                     <color key="backgroundColor" red="0.1333333333" green="0.0" blue="0.72549019609999998" alpha="0.40000000000000002" colorSpace="calibratedRGB"/>
                                                                                     <userDefinedRuntimeAttributes>
                                                                                         <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -110,7 +112,7 @@
                                                                                     </userDefinedRuntimeAttributes>
                                                                                 </label>
                                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Breed group" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m1k-oR-dMB" customClass="UILabelDeviceClass" customModule="MovieApp" customModuleProvider="target">
-                                                                                    <rect key="frame" x="135.66666666666663" y="85.333333333333329" width="234.33333333333337" height="15.666666666666671"/>
+                                                                                    <rect key="frame" x="135.66666666666663" y="85" width="234.33333333333337" height="15.666666666666671"/>
                                                                                     <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                                                                     <nil key="highlightedColor"/>
@@ -121,7 +123,7 @@
                                                                                     </userDefinedRuntimeAttributes>
                                                                                 </label>
                                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Temperament" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Xh-ww-zPT" customClass="UILabelDeviceClass" customModule="MovieApp" customModuleProvider="target">
-                                                                                    <rect key="frame" x="135.66666666666663" y="134.33333333333334" width="234.33333333333337" height="14.333333333333343"/>
+                                                                                    <rect key="frame" x="135.66666666666663" y="133.33333333333334" width="234.33333333333337" height="14.333333333333343"/>
                                                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                                                                     <nil key="highlightedColor"/>
@@ -243,10 +245,10 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="414" height="800"/>
                                                         <subviews>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dKT-z1-c4g">
-                                                                <rect key="frame" x="0.0" y="0.0" width="414" height="320"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="414" height="240"/>
                                                                 <subviews>
                                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="l1z-LF-myo">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="414" height="320"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="414" height="240"/>
                                                                         <color key="backgroundColor" red="0.0" green="0.46274509800000002" blue="0.70980392160000005" alpha="1" colorSpace="calibratedRGB"/>
                                                                     </imageView>
                                                                 </subviews>
@@ -259,7 +261,7 @@
                                                                 </constraints>
                                                             </view>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MfR-CO-zKs" customClass="UILabelDeviceClass" customModule="MovieApp" customModuleProvider="target">
-                                                                <rect key="frame" x="16" y="336" width="382" height="21.666666666666686"/>
+                                                                <rect key="frame" x="16" y="255.99999999999997" width="382" height="21.666666666666657"/>
                                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
@@ -270,21 +272,21 @@
                                                                 </userDefinedRuntimeAttributes>
                                                             </label>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6dC-dP-NhQ">
-                                                                <rect key="frame" x="16" y="375.66666666666669" width="384" height="1"/>
+                                                                <rect key="frame" x="16" y="295.66666666666669" width="384" height="1"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="1" id="Pc7-02-Qye"/>
                                                                 </constraints>
                                                             </view>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="XTc-wS-Ei7">
-                                                                <rect key="frame" x="16" y="393" width="22" height="21.666666666666686"/>
+                                                                <rect key="frame" x="16" y="313" width="22" height="21.666666666666657"/>
                                                                 <color key="tintColor" systemColor="systemYellowColor"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" secondItem="XTc-wS-Ei7" secondAttribute="height" multiplier="1:1" id="hAY-z6-uNW"/>
                                                                 </constraints>
                                                             </imageView>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rating" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m8w-O0-taZ" customClass="UILabelDeviceClass" customModule="MovieApp" customModuleProvider="target">
-                                                                <rect key="frame" x="46" y="394.66666666666669" width="352" height="19.333333333333314"/>
+                                                                <rect key="frame" x="46" y="314.66666666666669" width="352" height="19.333333333333314"/>
                                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <nil key="highlightedColor"/>
@@ -295,14 +297,14 @@
                                                                 </userDefinedRuntimeAttributes>
                                                             </label>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="calendar" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="sGT-Cs-7KJ">
-                                                                <rect key="frame" x="16" y="454" width="20.666666666666671" height="17.666666666666686"/>
+                                                                <rect key="frame" x="16" y="374" width="20.666666666666671" height="17.666666666666686"/>
                                                                 <color key="tintColor" white="0.0" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" secondItem="sGT-Cs-7KJ" secondAttribute="height" multiplier="1:1" id="cF0-cm-PI8"/>
                                                                 </constraints>
                                                             </imageView>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Year" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zLE-fm-Zvj" customClass="UILabelDeviceClass" customModule="MovieApp" customModuleProvider="target">
-                                                                <rect key="frame" x="44.666666666666657" y="455" width="353.33333333333337" height="15.666666666666686"/>
+                                                                <rect key="frame" x="44.666666666666657" y="375" width="353.33333333333337" height="15.666666666666686"/>
                                                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="13"/>
                                                                 <color key="textColor" white="0.0" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <nil key="highlightedColor"/>
@@ -313,14 +315,14 @@
                                                                 </userDefinedRuntimeAttributes>
                                                             </label>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nuO-rs-5od">
-                                                                <rect key="frame" x="16" y="491" width="382" height="1"/>
+                                                                <rect key="frame" x="16" y="411" width="382" height="1"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="1" id="D0e-ae-LoF"/>
                                                                 </constraints>
                                                             </view>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EAn-gg-Vbg" customClass="UILabelDeviceClass" customModule="MovieApp" customModuleProvider="target">
-                                                                <rect key="frame" x="16" y="508.00000000000006" width="382" height="21.666666666666686"/>
+                                                                <rect key="frame" x="16" y="428" width="382" height="21.666666666666686"/>
                                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
@@ -331,7 +333,7 @@
                                                                 </userDefinedRuntimeAttributes>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gvn-q3-ZlC" customClass="UILabelDeviceClass" customModule="MovieApp" customModuleProvider="target">
-                                                                <rect key="frame" x="24" y="535.66666666666663" width="347" height="86"/>
+                                                                <rect key="frame" x="24" y="455.66666666666669" width="347" height="86.000000000000057"/>
                                                                 <string key="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,.</string>
                                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="12"/>
                                                                 <color key="textColor" white="0.0" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -343,7 +345,7 @@
                                                                 </userDefinedRuntimeAttributes>
                                                             </label>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a8V-ro-WUM">
-                                                                <rect key="frame" x="16" y="433.33333333333331" width="382" height="1"/>
+                                                                <rect key="frame" x="16" y="353.33333333333331" width="382" height="1"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="1" id="EEU-fI-poC"/>
@@ -401,7 +403,7 @@
                                             <constraint firstAttribute="bottom" secondItem="zzX-rR-j59" secondAttribute="bottom" id="F97-iR-rdu"/>
                                             <constraint firstItem="zzX-rR-j59" firstAttribute="leading" secondItem="mgv-3l-jgc" secondAttribute="leading" id="YAP-qo-e3O"/>
                                             <constraint firstItem="zzX-rR-j59" firstAttribute="top" secondItem="mgv-3l-jgc" secondAttribute="top" id="c62-kk-fwC"/>
-                                            <constraint firstItem="dKT-z1-c4g" firstAttribute="height" secondItem="mgv-3l-jgc" secondAttribute="height" multiplier="0.4" id="oOC-YM-XB4"/>
+                                            <constraint firstItem="dKT-z1-c4g" firstAttribute="height" secondItem="mgv-3l-jgc" secondAttribute="height" multiplier="0.3" id="oOC-YM-XB4"/>
                                         </constraints>
                                     </view>
                                 </subviews>

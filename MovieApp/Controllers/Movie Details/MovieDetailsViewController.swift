@@ -31,7 +31,7 @@ class MovieDetailsViewController: UIViewController {
     }
     
    
-     //This method will display Movie data from previous screen index
+    //MARK: -  This method will display Movie data from previous screen index
     func displayMovieInfo() {
     
         let imageUrl = selectedMovie?.posterImage
@@ -50,7 +50,7 @@ class MovieDetailsViewController: UIViewController {
     }
     
   
-    //Method will toggle favorite state
+    //MARK: - Method will toggle favorite state
     @IBAction func favouriteButtonPressed(_ sender: Any) {
         favourite.toggle()
         
